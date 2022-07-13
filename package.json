@@ -1,0 +1,22 @@
+{
+	"name": "@prokopschield/password-generator",
+	"description": "Password Generator",
+	"version": "0.1.0-1",
+	"main": "lib/index.js",
+	"bin": {
+		"password-generator": "lib/cli.js"
+	},
+	"scripts": {
+		"start": "node lib/cli",
+		"test": "npx nslibmgr test"
+	},
+	"author": "Prokop Schield",
+	"devDependencies": {
+		"@types/node": ">=16"
+	},
+	"keywords": [],
+	"license": "GPL-3.0-or-later",
+	"dependencies": {
+		"doge-passwd": "^0.1.3"
+	}
+}
